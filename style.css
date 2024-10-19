@@ -885,14 +885,36 @@ span{
     .home{
         background: #002738;
         background-image: none;
+
+    }
+
+    .home-content{
+        text-align: center;
+        padding-bottom: 10rem;
+    }
+
+    .home-content h1{
+        font-size: 45px;
+        padding-right: 2rem;
+    }
+
+    .home-content h3{
+        padding-right: 3rem;
+    }
+    .home-content p{
+        font-size: 12px;
+        width: 300px;
+        padding-left: 2rem;
     }
 
     .home-content .button{
-        width: auto;
+        display: none;
+
     }
     
     .social{
         margin-right: 2rem;
+        padding-bottom: 5rem;
     }
 
     .about-content p{
