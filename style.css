@@ -904,6 +904,7 @@ span{
     .home-content p{
         font-size: 15px;
         width: 300px;
+        padding-left: 3rem;
     }
 
     .home-content .button{
@@ -913,7 +914,6 @@ span{
     
     .social{
         margin-right: 2rem;
-        padding-bottom: 5rem;
     }
 
     .about-content p{
