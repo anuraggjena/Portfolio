@@ -1,3 +1,12 @@
+let menuicon = document.querySelector('#menu-icon');
+let navbar = document.querySelector('.navbar');
+
+menuicon.onclick = () => {
+    navbar.classList.toggle('active');
+}
+
+
+
 let sections = document.querySelectorAll('section');
 let navLinks = document.querySelectorAll('header nav a');
 
@@ -20,4 +29,6 @@ window.onscroll = () =>{
     let header = document.querySelector('.header');
 
 header .classList.toggle('sticky', window.scrollY > 100);
+
+navbar.classList.remove('active');
 }
