@@ -722,6 +722,10 @@ span{
         margin-left: 75px;
     }
 
+    .contact form{
+        font-size: 65%;
+    }
+
 @media (max-width: 1200px) {
     html{
         font-size: 55%;
