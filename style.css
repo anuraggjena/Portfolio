@@ -715,7 +715,7 @@ span{
 /* BREAKPOINTS */
 @media (min-width: 1200px){
     html{
-        font-size: 80%;
+        font-size: 70%;
     }
 
 @media (max-width: 1200px) {
